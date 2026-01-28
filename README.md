@@ -47,9 +47,9 @@ The design ensures proper handling of many-to-many relationships and follows hea
 
 ### Logical Design & Normalization
 All tables were normalized up to Third Normal Form (3NF) to:
-- Eliminate redundancy.
-- Prevent update anomalies.
-- Ensure data consistency.
+- Eliminate redundancy
+- Prevent update anomalies
+- Ensure data consistency
 
 Normalization was applied systematically to each entity based on functional dependencies.
 
@@ -57,12 +57,12 @@ Normalization was applied systematically to each entity based on functional depe
 
 ## Business Rules Implemented
 Some of the key business rules enforced in the database include:
-- Donors must be between 18 and 65 years old.
-- Donor minimum weight requirement.
-- Blood bags expire 42 days after donation.
-- Donors must pass all required medical tests before donation.
-- Each blood bag must be linked to a valid donor.
-- Blood transfusions must respect blood type compatibility.
+- Donors must be between 18 and 65 years old
+- Donor minimum weight requirement
+- Blood bags expire 42 days after donation
+- Donors must pass all required medical tests before donation
+- Each blood bag must be linked to a valid donor
+- Blood transfusions must respect blood type compatibility
 
 ---
 

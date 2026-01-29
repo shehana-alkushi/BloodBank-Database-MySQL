@@ -33,9 +33,7 @@ CREATE TABLE Donor (
   Donor_Eligibility ENUM('Eligible','Not Eligible'),
   Donation_Date DATETIME,
   Staff_ID INT NOT NULL,
-  FOREIGN KEY (Staff_ID) REFERENCES Staff(Staff_ID),
-  CHECK (Age BETWEEN 18 AND 65),
-  CHECK (Weight >= 50)
+  FOREIGN KEY (Staff_ID) REFERENCES Staff(Staff_ID)
 );
 
 -- =========================

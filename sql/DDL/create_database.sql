@@ -1,1 +1,2 @@
-
+CREATE DATABASE BloodBankDB;
+USE BloodBankDB;
